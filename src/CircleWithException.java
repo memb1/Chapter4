@@ -19,7 +19,7 @@ public class CircleWithException {
     if (radius > 0)
       this.radius =  radius;
     else
-      throw new IllegalArgumentException("Radius cannot be negative");
+      throw new IllegalArgumentException("Radius cannot be negative. Value entered is "+ radius);
   }
 
   public static int getNumberOfObjects() {
